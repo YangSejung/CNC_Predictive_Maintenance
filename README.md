@@ -10,7 +10,9 @@
 │   └── model
 │        ├── DNN.ipynb
 │        ├── LightGBM.ipynb
-│        └── Random Forest.ipynb
+│        ├── LightGBM with fft.ipynb
+│        ├── Random Forest.ipynb
+│        └── Random Forest with fft.ipynb
 │   
 └── README.MD
 ``` 
@@ -23,6 +25,8 @@
 
 |&nbsp;         | Tool Condition | Machining Finalized | Passed Visual Inspection |
 |---------------|----------------|---------------------|--------------------------|
-| DNN           |         91.88% |              99.57% |                   99.68% |
-| LightGBM      |         87.35% |             100.00% |                  100.00% |
-| Random Forest |         92.50% |              99.91% |                   99.91% |
+| DNN           |         91.81% |              99.53% |                   99.70% |
+| LGBM          |         87.30% |             100.00% |                   99.98% |
+| LGBM(fft)     |         87.35% |             100.00% |                  100.00% |
+| RF            |         92.48% |              99.91% |                   99.95% |
+| RF(fft)       |         92.34% |             100.00% |                  100.00% |
